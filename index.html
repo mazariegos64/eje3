@@ -8,55 +8,73 @@
   </head>
   <body>
     <header class="bg-dark text-white text-center py-3">
-        <img src="logo.png" width="100" height="auto">
+      <img src="logo.png" width="100" height="auto" alt="Logo New Era">
       <div class="container">
         <h1>New Era</h1>
       </div>
     </header>
 
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container">
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="gorras.html">Gorras</a></li>
-        <li class="nav-item"><a class="nav-link" href="historia.html">Nuestra historia</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="">Introduccion</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Contacanos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <main>
-      <div class="container py-4" id="catalogo">
-        <div class="row">
+      <div class="container py-5">
+        <h2 class="text-center mb-4">Bienvenido a New Era</h2>
+        <p class="text-center">
+          En New Era encontrarás las mejores gorras con diseños exclusivos, calidad garantizada 
+          y un estilo único para cada ocasión. Nuestra misión es ofrecer comodidad, moda y autenticidad 
+          en cada uno de nuestros productos.
+        </p>
+      </div>
+      <div class="container py-5">
+        <h2 class="text-center mb-4">Nuestros Servicios</h2>
+        <div class="row text-center">
           <div class="col-md-4">
-              <img src="negra.jpg" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">Gorra Negra</h5>
-                <p class="card-text">Clásica gorra New Era en color negro.</p>
-            </div>
+            <h3>Venta de Gorras</h3>
+            <p>Gran variedad de modelos y colores para todos los gustos.</p>
           </div>
           <div class="col-md-4">
-              <img src="roja.jpg" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">Gorra Roja</h5>
-                <p class="card-text">Un diseño moderno y llamativo en rojo.</p>
-            </div>
+            <h5>Personalización</h5>
+            <p>Diseña tu propia gorra exclusiva con nuestro servicio de bordado.</p>
           </div>
           <div class="col-md-4">
-              <img src="azul.webp" class="card-img-top">
-              <div class="card-body">
-                <h5 class="card-title">Gorra Azul</h5>
-                <p class="card-text">Comodidad y estilo en color azul.</p>
-            </div>
+            <h5>Envíos a Domicilio</h5>
+            <p>Recibe tus gorras en la comodidad de tu hogar en todo el país.</p>
           </div>
         </div>
+      </div>
+      <div class="container py-5">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+          </div>
+          <div class="mb-3">
+            <label for="correo" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="correo" placeholder="@gmail.com">
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4" placeholder="mensaje..."></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-dark">Enviar</button>
+          </div>
+        </form>
       </div>
     </main>
 
     <footer class="bg-light text-center py-3">
       <p>2025 Gorras New Era</p>
     </footer>
- </body>
+  </body>
 </html>
